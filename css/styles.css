@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Krub', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.8rem 0 2rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    padding: 2rem 0 2rem 0;
+}
+
+.navbar__nombre {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__nombre a {
+    font-size: 2.8rem;
+}
+
+.navbar__links {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+

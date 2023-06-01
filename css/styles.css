@@ -54,6 +54,18 @@ body {
     color: rgb(210, 210, 210);
 }
 
+.body-scroll {
+    padding-top: 8.6rem;
+}
+
+.fijo {
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: .1rem .2rem .3rem #333;
+}
+
 .sobreMi {
     background-color: #212939;
     padding: 10rem 0 20rem 0;
@@ -104,7 +116,7 @@ body {
 .sobreMi__contenido__info h3 {
     font-size: 2.2rem;
     text-align: start;
-    color: white;
+    color: rgb(26, 199, 37);
 }
 
 .sobreMi__contenido__info p {

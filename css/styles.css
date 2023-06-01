@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-    background-color: #1f2232;
+    background-color: #212939;
     display: flex;
     justify-content: space-between;
     padding: 0 2.8rem 0 2rem;
@@ -40,41 +40,79 @@ body {
     font-size: 2.8rem;
 }
 
+.navbar__nombre a:hover {
+    color: rgb(210, 210, 210);
+}
+
 .navbar__links {
     display: flex;
     align-items: center;
     gap: 3rem;
 }
 
+.navbar__links a:hover {
+    color: rgb(210, 210, 210);
+}
+
 .sobreMi {
-    width: min(80rem, 100%);
-    margin: 6rem auto 0 auto;
+    background-color: #212939;
+    padding: 10rem 0 20rem 0;
+    height: 90rem;
+}
+
+.sobreMi__contenido {
+    width: min(120rem, 100%);
+    margin: 0 auto;
     display: flex;
-    gap: 4rem;
+    gap: 10rem;
 }
 
-.sobreMi img {
-    width: 50%;
+.sobreMi__contenido img {
+    width: 40%;
     border-radius: 2rem;
+    filter: drop-shadow(0px 4px 6px #1e9534);
 }
 
-.sobreMi__informacion {
+.sobreMi__contenido img:hover {
+    animation: moveUpAnimation 3s infinite;
+}
+
+@keyframes moveUpAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.sobreMi__contenido__info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
-.sobreMi__informacion h2 {
+.sobreMi__contenido__info h2 {
     font-size: 3rem;
-    text-align: center;
+    text-align: start;
+    color: white;
 }
 
-.sobreMi__informacion p {
-    font-size: 1.6rem;
+.sobreMi__contenido__info h3 {
+    font-size: 2.2rem;
+    text-align: start;
+    color: white;
+}
+
+.sobreMi__contenido__info p {
+    font-size: 1.8rem;
     text-align: justify;
     margin-top: 2rem;
-    
+    color: white;
+    line-height: 1.5;
 }
 
 .habilidadesB {
@@ -83,7 +121,7 @@ body {
 
 .habilidadesB__contenedor {
     width: min(80rem, 100%);
-    margin: 10rem auto 0 auto;
+    margin: 0 auto;
     padding: 6rem 0;
     color: #fff;
 }

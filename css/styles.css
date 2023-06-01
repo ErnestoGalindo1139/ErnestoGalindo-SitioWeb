@@ -152,6 +152,7 @@ body {
 
 .habilidadesT_img img:hover {
     animation: moveUpAnimation 3s infinite;
+    filter: drop-shadow(0px 4px 10px #0760b9);
 }
 
 @keyframes moveUpAnimation {

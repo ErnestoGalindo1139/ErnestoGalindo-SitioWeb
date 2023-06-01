@@ -150,7 +150,7 @@ body {
 
 .habilidadesT__contenedor {
     width: min(160rem, 100%);
-    margin: 0 auto 10rem auto;
+    margin: 0 auto;
     padding: 10rem 0;
 }
 
@@ -203,5 +203,80 @@ body {
     100% {
         transform: translateY(0);
     }
+}
+
+.pie {
+    background-color: #212939;
+    padding-bottom: 6rem;
+}
+
+.pie h4 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 4rem 0;
+    color: white;
+}
+
+.pie__contenido {
+    display: flex;
+    width: min(80rem, 100%);
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.pie__contenido p {
+    font-size: 1.6rem;
+    color: #FFF;
+    line-height: 2;
+}
+
+.contacto__directo {
+    color: #FFF;
+}
+
+.contacto__directo h5 {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.contacto__directo__T {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.contacto__directo__T img {
+    width: 30px;
+}
+
+.contacto__directo__W {
+    display: flex;
+    gap: 1rem;
+}
+
+.contacto__directo__W img {
+    width: 30px;
+}
+
+.contacto__perfiles h5 {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.contacto__perfiles {
+    color: #FFF;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.contacto__perfiles__img {
+    display: flex;
+    gap: 2rem;
+}
+
+.contacto__perfiles img {
+    width: 40px;
 }
 
